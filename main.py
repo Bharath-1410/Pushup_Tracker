@@ -6,7 +6,7 @@ md_drawing_styles=md.solutions.drawing_styles
 md_pose=md.solutions.pose
 count = 0
 position = None
-cap= cv2.VideoCapture(0)
+cap= cv2.VideoCapture('push.mp4')
 with md_pose.Pose(
     min_detection_confidence=0.7,
     min_tracking_confidence=0.7) as pose:
